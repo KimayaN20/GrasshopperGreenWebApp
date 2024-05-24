@@ -1,3 +1,4 @@
+//extract input from the contact form
 const form = document.getElementById('contactForm');
 const alert = document.querySelector(".alert");
 
@@ -22,6 +23,7 @@ const database = firebase.database();
 
 const ref = database.ref("messages");*/
 
+// add a listerner to save data from the input fields and show successfull alert when successfull
 form.addEventListener("submit", (e) => {
     e.preventDefault();
     //console.log("form submitted");
@@ -41,8 +43,10 @@ form.addEventListener("submit", (e) => {
     alert.style.display = "block"
         // alert.toString("name" + name, "email" + email, "message" + message)
 
+    // this is a timer of how long the alert will show and then until is shows nothing
     setTimeout(() => {
-        alert.style.display = "none"
-    }, 2000)
+            alert.style.display = "none"
+        }, 2000)
+        //reset the form - clear input fields
     form.reset();
 })

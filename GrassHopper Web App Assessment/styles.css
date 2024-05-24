@@ -1,8 +1,11 @@
+    /*Icon image format for the footer icons*/
+    
     .img {
         width: 30px;
         height: 30px;
         margin-bottom: -20px;
     }
+    /*Style for the GGT logo*/
     
     .imgLogo {
         width: 200px;
@@ -22,6 +25,7 @@
     .divHeader {
         background-color: blanchedalmond;
     }
+    /*format of the grid for team members display*/
     
     .grid-container {
         display: grid;
@@ -34,6 +38,7 @@
     .w3-barBlock {
         width: fit-content;
     }
+    /*Style for footer*/
     
     .divFooter {
         color: #DC9424;
@@ -83,7 +88,7 @@
         margin-top: 30px;
         /*background-color: green;*/
         /*background: #DC9424;*/
-        margin-bottom: auto;
+        /*margin-bottom: auto;*/
         background-color: #056839;
         height: 130px;
     }
