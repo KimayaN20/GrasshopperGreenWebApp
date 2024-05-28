@@ -1,0 +1,164 @@
+    /*Icon image format for the footer icons*/
+    
+    .img {
+        width: 30px;
+        height: 30px;
+        margin-bottom: -20px;
+    }
+    /*Style for the GGT logo*/
+    
+    .imgLogo {
+        width: 200px;
+        height: 150px;
+    }
+    
+    h1 {
+        font-family: Rubik, Helvetica, Arial, Lucida, sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    
+    body {
+        background: blanchedalmond;
+    }
+    
+    .divHeader {
+        background-color: blanchedalmond;
+    }
+    /*format of the grid for team members display*/
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: 500px 1000px;
+        grid-template-rows: 400px;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+    
+    .w3-barBlock {
+        width: fit-content;
+    }
+    /*Style for footer*/
+    
+    .divFooter {
+        color: #DC9424;
+        align-items: center;
+    }
+    
+    .divHome {
+        margin-left: 270px;
+    }
+    /*Footer styling*/
+    
+    #page-container {
+        position: relative;
+        min-height: 100vh;
+    }
+    
+    #content-wrap {
+        padding-bottom: 2.5rem;
+        /* Footer height */
+    }
+    
+    #footer {
+        position: absolute;
+        width: 100%;
+        height: 2.5rem;
+    }
+    
+    .pHeading {
+        font-weight: 200;
+        font-size: 10px;
+        font-family: 'Segoe UI';
+    }
+    
+    .pFoot {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        margin-left: -100px;
+        font-family: Rubik, Helvetica, Arial, Lucida, sans-serif;
+        font-size: 20px;
+        font-weight: 200;
+        color: azure;
+    }
+    
+    .footBander {
+        margin-top: 30px;
+        background-color: #056839;
+        height: 130px;
+    }
+    
+    .para {
+        margin-left: 150px;
+        position: absolute;
+        width: 80%;
+        text-align: center;
+        font-family: Rubik, Helvetica, Arial, Lucida, sans-serif;
+        font-size: 20px;
+        font-weight: 200;
+        color: black;
+    }
+    
+    .parapre {
+        margin-left: 150px;
+        position: absolute;
+        width: 80%;
+        text-align: center;
+        font-family: Rubik, Helvetica, Arial, Lucida, sans-serif;
+        font-size: 20px;
+        font-weight: 200;
+        color: black;
+    }
+    
+    .preHome {
+        margin-left: -60px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    
+    .divGridTeamMember {
+        background-color: #F1931F;
+        height: 400px;
+        width: 500px;
+        border: round;
+        border-radius: 25px;
+    }
+    
+    .imgTeam {
+        height: 200px;
+        width: 200px;
+        margin-left: 140px;
+        margin-top: 20px;
+    }
+    
+    .h4Team {
+        text-align: center;
+        color: black;
+    }
+    
+    .pTeamBio {
+        text-align: center;
+        color: black;
+    }
+    
+    .imgContact {
+        height: 30px;
+        width: 30px;
+    }
+    
+    .pContact {
+        text-align: center;
+        text-size-adjust: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-weight: 150px;
+    }
+    
+    .divTable {
+        background-color: #F1931F;
+        width: 300px;
+        height: 190px;
+        border-radius: 25px;
+        text-align: center;
+    }

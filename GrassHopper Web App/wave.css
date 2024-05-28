@@ -1,0 +1,54 @@
+.bodyLaunch {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    /*background-color: #D8EEEB;*/
+    background-color: blanchedalmond;
+}
+
+#waves {
+    position: relative;
+    height: 70px;
+    width: 100%;
+    /*background: green;*/
+    background: #DC9424;
+    transform: scale(1, 1);
+    z-index: 1;
+}
+
+#waves:before {
+    content: "";
+    position: absolute;
+    border-radius: 100%;
+    width: 100%;
+    height: 18rem;
+    /*background-color: #D8EEEB;*/
+    background-color: blanchedalmond;
+    right: -35%;
+    top: 30px;
+}
+
+#waves:after {
+    content: "";
+    position: absolute;
+    border-radius: 100%;
+    width: 100%;
+    height: 18rem;
+    /* background-color: green;*/
+    background: #DC9424;
+    left: -30%;
+    top: -185px;
+}
+
+.main {
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: green;
+    font-weight: 500;
+    font-size: 5vw;
+    font-family: 'Segoe UI';
+    top: 1;
+}
